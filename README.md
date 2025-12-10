@@ -37,9 +37,9 @@ top of each notebook to point to your local copy or your Google Drive paths.
     and high resolution SHARP patches, and reports PSNR and SSIM on a held
     out test set.
   - `2_swinir_on_generated_images.ipynb`  
-    Loads the trained SwinIR checkpoint and applies it to VQ-GAN generated
-    flare and non flare magnetograms, producing 512x512 super resolved
-    versions and saving the figures used in the report.
+  Loads the trained SwinIR checkpoint and applies it to VQ-GAN generated
+  flare and non flare magnetograms, producing 512x512 super resolved
+  versions and visualizing qualitative super resolution results for analysis.
 
 - `clip_guidance/`  
   - `Clip_guidance.ipynb`  
